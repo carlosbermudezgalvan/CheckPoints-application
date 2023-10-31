@@ -1,0 +1,23 @@
+# Excluir archivos compilados y binarios
+*.class
+*.jar
+*.war
+*.ear
+
+# Excluir archivos generados por IDEs
+/.idea
+/.vscode
+/.project
+/.settings
+
+# Excluir archivos de configuración
+*.iml
+*.log
+
+# Excluir archivos de dependencias
+/target/
+/lib/
+
+# Excluir archivos de compilación
+/out/
+/build/

@@ -4,13 +4,13 @@ import javax.swing.*;
 
 public class GameWindow extends JFrame {
 	
-    public GameWindow(GameMainPanel gamePanel) {
+    public GameWindow(GamePanel gamePanel) {
     	
         setTitle("Mi Juego");
-        setSize(800, 600);
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         
         add(gamePanel);
+        pack(); // Ajusta el tamaño del JFrame según su contenido
         
         setLocationRelativeTo(null); // Centra la ventana en la pantalla
         setVisible(true);    
